@@ -12,13 +12,16 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "GoatBot",
-	"prefix": "-",
+	"nickNameBot": "손 𝐌𝐢𝐧𝐚𝐭𝐨 𝐧𝐚𝐦𝐢𝐤𝐚𝐳𝐞 ʚĭɞ",
+	"prefix": ".",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": [],
+	"adminBot": [
+       "61566529655338"
+],
+
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
@@ -40,15 +43,15 @@
 	"timeZone": "Asia/Ho_Chi_Minh",
 	"credentials": {
 		"gmailAccount": {
-			"email": "",
-			"clientId": "",
-			"clientSecret": "",
-			"refreshToken": "",
+			"email": "christstars2009@gmail.com",
+			"clientId": "682550325524-0prdv6png8dhhm24h5cv5ed9v1be6q7g.apps.googleusercontent.com",
+			"clientSecret": "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",
+			"refreshToken": "1//04SK-IqD5v8j9CgYIARAAGAQSNwF-L9IrY5-g6WersrwW8KsM4-VILpsaEUpllezTyKI_ZveXtGHcjN5slGlsNZfF8wDmtAAAWqQ",
 			"apiKey": ""
 		},
 		"gRecaptcha": {
-			"siteKey": "",
-			"secretKey": ""
+			"siteKey": "6LfoXPQpAAAAAOk5oB3gvlMzE1bvyertl_rKpMkx",
+			"secretKey": "6LfoXPQpAAAAAFRP1jdHQB_ZVcU78n3A3-n6da59"
 		}
 	},
 	"dashBoard": {
@@ -142,4 +145,4 @@
 		"autoReconnect": false,
 		"notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
 	}
-}
+	}
