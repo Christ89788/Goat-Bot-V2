@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ ⚡| 𝐍𝐚𝐦𝐢𝐤𝐚𝐳𝐞 𝐌𝐢𝐧𝐚𝐭𝐨 ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "[ ⚡| 𝐁𝐨𝐫𝐮𝐬𝐡𝐢𝐤𝐢 𝐔𝐳𝐮𝐦𝐚𝐤𝐢 ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 module.exports = {
   config: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `╔═══════════╗\n     ✰𝐍𝐚𝐦𝐢𝐤𝐚𝐳𝐞 𝐌𝐢𝐧𝐚𝐭𝐨✰\n╚═══════════╝`; // replace with your name 
+      msg += `╔═══════════╗\n     ✰𝐁𝐨𝐫𝐮𝐬𝐡𝐢𝐤𝐢 𝐔𝐳𝐮𝐦𝐚𝐤𝐢✰\n╚═══════════╝`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -59,7 +59,7 @@ module.exports = {
       });
 
       const totalCommands = commands.size;
-      msg += `\𝐍𝐚𝐦𝐢𝐤𝐚𝐳𝐞, 𝐌𝐢𝐧𝐚𝐭𝐨 𝐚 ${totalCommands} 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐩𝐨𝐮𝐯𝐚𝐧𝐭 ê𝐭𝐫𝐞 𝐮𝐭𝐢𝐥𝐢𝐬é𝐞𝐬 𝐜𝐡𝐞𝐳 𝐥𝐞 𝐦𝐚î𝐭𝐫𝐞 𝐡𝐨𝐤𝐚𝐠𝐞 𝟒𝐞𝐦 𝐝𝐮 𝐧𝐨𝐦\n`;
+      msg += `\𝐁𝐨𝐫𝐮𝐬𝐡𝐢𝐤𝐢, 𝐁𝐨𝐫𝐮𝐬𝐡𝐢𝐤𝐢 𝐔𝐳𝐮𝐦𝐚𝐤𝐢 𝐚 ${totalCommands} 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐩𝐨𝐮𝐯𝐚𝐧𝐭 ê𝐭𝐫𝐞 𝐮𝐭𝐢𝐥𝐢𝐬é𝐞𝐬 𝐜𝐡𝐞𝐳 𝐥𝐞 𝐦𝐚î𝐭𝐫𝐞 𝐡𝐨𝐤𝐚𝐠𝐞 𝟒𝐞𝐦 𝐝𝐮 𝐧𝐨𝐦\n`;
       msg += `𝗧𝘆𝗽𝗲 ${prefix} 𝐀𝐢𝐝𝐞𝐳 𝐧𝐨𝐦 𝐝𝐞 𝐥𝐚 𝐜𝐦𝐝 à 𝐚𝐟𝐟𝐢𝐜𝐡𝐞𝐫 𝐥𝐞𝐬 𝐝é𝐭𝐚𝐢𝐥𝐬 𝐝𝐞 𝐜𝐞𝐭𝐭𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 𝐝𝐞 𝐥𝐞 𝐜𝐥𝐚𝐢𝐫 𝐣𝐚𝐮𝐧𝐞 𝐝𝐮 𝐤𝐨𝐧𝐨𝐡𝐚 ⚡ 𝐏𝐑𝐎𝐅𝐈𝐋 𝐀𝐃𝐌𝐈𝐍 : https://www.facebook.com/profile.php?id=100094118835962&mibextid=ZbWKwL .\n`;
       msg += `⚡ | 𝐍𝐚𝐦𝐢𝐤𝐚𝐳𝐞 𝐌𝐢𝐧𝐚𝐭𝐨`; // its not decoy so change it if you want 
 
